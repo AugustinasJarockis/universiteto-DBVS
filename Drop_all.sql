@@ -1,0 +1,14 @@
+DROP TRIGGER NevirsitaLeistinaSuma ON Automobilio_rezervacija;
+DROP FUNCTION LikucioTikrinimas;
+DROP TRIGGER RezervacijosNesikerta ON Rezervacija;
+DROP FUNCTION LaikoKirtimasis;
+DROP VIEW Dabar_rezervave_auto;
+DROP MATERIALIZED VIEW Vairuotojo_rezervacijos;
+DROP INDEX AutoIRezervazija_indeksas;
+DROP TABLE auja9067.Automobilio_rezervacija;
+DROP INDEX telefonu_indeksas;
+DROP TABLE auja9067.Automobilis;
+DROP TABLE auja9067.Vairuotojas;
+DROP TABLE auja9067.Rezervacija;
+DROP TABLE auja9067.Stovejimo_vieta;
+DROP TABLE auja9067.Tipas;
